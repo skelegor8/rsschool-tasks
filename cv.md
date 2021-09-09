@@ -31,11 +31,9 @@ I have tasks such as: taking photo of products, writing technical documentation 
 ### Education
 
 Secondary vocational 2013 - 2017. Minsk State Higher Radio Engineering College, Minsk.
-
 **Speciality:** Programming Technician.
 
 Higher (Evening) 2017 - 2021 Institute of Information Technologies, Belarusian State University of Informatics and Radioelectronics, Minsk.
-
 **Speciality:** Systems engineer.
 
 
