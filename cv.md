@@ -36,4 +36,4 @@ Secondary vocational 2013 - 2017. Minsk State Higher Radio Engineering College, 
 Higher (Evening) 2017 - 2021 Institute of Information Technologies, Belarusian State University of Informatics and Radioelectronics, Minsk.  
 **Speciality:** Systems engineer.
 
-
+**Language skills:** Russian – native, English – Pre-intermediate.
