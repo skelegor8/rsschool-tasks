@@ -39,3 +39,53 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 /*----------------------Обнуление----------------------*/
+
+body{
+   font-family: Calibri;
+   font-size: 20px;
+   background-color: dimgray;
+}
+
+h1{
+   font-size: 25px;
+}
+
+h2{
+   text-shadow: 1px 1px 1px rgba(85, 85, 85, 0.226);
+   line-height: 40px;
+   font-size: 25px;
+}
+
+p{
+   text-align: justify;
+}
+
+.contact{
+   margin: 15px 50px 10px 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: white;
+}
+
+.about-me{
+   margin: 10px 50px 10px 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: white;
+}
+
+.code-example{
+   margin: 10px 50px 10px 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: white;
+}
+
+.work-experience{
+   margin: 10px 50px 10px 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: white;
+}
+
+.education{
+   margin: 10px 50px 10px 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: white;
+}
