@@ -91,16 +91,16 @@ p{
 }
 
 footer{
+   font-family: Calibri;
    margin: 10px 250px 10px 250px;
    background: slategray;
    color: white;
 }
 
 .git{
-   width: 50px;
-   
+   background: url('img/icon/icons8-github.svg') left no-repeat;
 }
 
 .rs{
-   width: 80px;
+   background: url('img/icon/rs_school_js.svg') left no-repeat;
 }
