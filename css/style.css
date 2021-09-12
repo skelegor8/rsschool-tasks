@@ -47,7 +47,7 @@ body{
 }
 
 h1{
-   font-size: 25px;
+   font-size: 30px;
 }
 
 h2{
@@ -57,50 +57,63 @@ h2{
 }
 
 p{
-   text-align: justify;
+   display: block;
 }
 
 .contact{
-   margin: 15px 250px 10px 250px;
+   height: 500px;
+   margin: 15px 300px 10px 300px;
    padding: 20px 20px 20px 20px;
-   background-color: white;
+   background: white url("../img/my_photo.jpg") 0 0/contain no-repeat;
+} 
+
+.contact-info{
+   margin: 15px 250px 10px 500px;
 }
 
 .about-me{
-   margin: 10px 250px 10px 250px;
+   margin: 10px 300px 10px 300px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .code-example{
-   margin: 10px 250px 10px 250px;
+   margin: 10px 300px 10px 300px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .work-experience{
-   margin: 10px 250px 10px 250px;
+   margin: 10px 300px 10px 300px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .education{
-   margin: 10px 250px 10px 250px;
+   margin: 10px 300px 10px 300px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 footer{
+   padding: 20px 20px 20px 20px;
    font-family: Calibri;
-   margin: 10px 250px 10px 250px;
+   margin: 10px 300px 20px 300px;
    background: slategray;
    color: white;
 }
 
-.git{
-   background: url('img/icon/icons8-github.svg') left no-repeat;
+.git-img{
+   height: 50px;
+   margin: 0 0 0 0;
 }
 
-.rs{
-   background: url('img/icon/rs_school_js.svg') left no-repeat;
+.year{
+   display: inline-block;
+   margin: 0 30% 0 30%;
+}
+
+.rs-img{
+   height: 50px;
+   margin: 0 0 0 0;
 }
