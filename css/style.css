@@ -61,31 +61,41 @@ p{
 }
 
 .contact{
-   margin: 15px 50px 10px 50px;
+   margin: 15px 250px 10px 250px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .about-me{
-   margin: 10px 50px 10px 50px;
+   margin: 10px 250px 10px 250px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .code-example{
-   margin: 10px 50px 10px 50px;
+   margin: 10px 250px 10px 250px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .work-experience{
-   margin: 10px 50px 10px 50px;
+   margin: 10px 250px 10px 250px;
    padding: 20px 20px 20px 20px;
    background-color: white;
 }
 
 .education{
-   margin: 10px 50px 10px 50px;
+   margin: 10px 250px 10px 250px;
    padding: 20px 20px 20px 20px;
    background-color: white;
+}
+
+footer{
+   margin: 10px 250px 10px 250px;
+   background: slategray;
+   color: white;
+}
+
+.git{
+   
 }
