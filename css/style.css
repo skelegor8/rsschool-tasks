@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 body{
    font-family: Calibri;
    font-size: 20px;
-   background-color: dimgray;
+   background-color: rgb(156, 156, 156);
 }
 
 h1{
@@ -97,5 +97,10 @@ footer{
 }
 
 .git{
+   width: 50px;
    
+}
+
+.rs{
+   width: 80px;
 }
