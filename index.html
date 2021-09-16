@@ -5,67 +5,84 @@
    </title>
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <meta http-equiv="Cotent-type" content="text/html;charset=utf-8">
+   <meta name="vieport" content="width=device-width"> 
 </head>
 <body>
-   <div class="contact">
+   <header>
+      <nav>
+         <ul>
+            <li>Shkel Egor</li>
+            <li>About me</li>
+            <li>Code examples</li>
+            <li>Work experience</li>
+            <li>Education</li>
+         </ul>
+      </nav>
+   </header>
+   <main>
       <div class="contact-info">
-         <h1>Shkel Egor</h1>
-         <p class="phone">
-            Phone: +375 (25) 731-87-85
+         <div class="my-photo-container">
+            <img src="/img/my_photo.jpg" alt="" class="my-photo">
+         </div>
+         <div class="info">
+            <h1>Shkel Egor</h1>
+            <p class="phone">
+               Phone: +375 (25) 731-87-85
+            </p>
+            <p class="email">
+               Email: skelegor8@gmail.com
+            </p>
+         </div>
+      </div>
+      <div class="about-me">
+         <h2>About me</h2>
+         <p>
+            I graduated from Minsk Radioengineering College in 2013 and I graduated from Belarusian State University of Informatics and Radioelectronics in 2021. My major is system engineer. I’ve learned English language for 1 years. I studied English at the International House. Now I’m learning English at home with Cambridge’s book by Muyphy. I sometimes listen to the radio. I have a pre-intermediate level. I enjoy learning English
          </p>
-         <p class="email">
-            Email: skelegor8@gmail.com
+         <br>
+         <p>
+            My specialty in college was programming. When I graduated from college, I decided to go to university and study systems engineering. I had different subjects, for example, control programming, testing, creating interface templates, etc. I think that studying at the university is more interesting than in college. The teachers at the college were very young and did not know their subject, but we have good teachers at the university.
          </p>
       </div>
-   </div>
-   <div class="about-me">
-      <h2>About me</h2>
-      <p>
-         I graduated from Minsk Radioengineering College in 2013 and I graduated from Belarusian State University of Informatics and Radioelectronics in 2021. My major is system engineer. I’ve learned English language for 1 years. I studied English at the International House. Now I’m learning English at home with Cambridge’s book by Muyphy. I sometimes listen to the radio. I have a pre-intermediate level. I enjoy learning English
-      </p>
-      <br>
-      <p>
-         My specialty in college was programming. When I graduated from college, I decided to go to university and study systems engineering. I had different subjects, for example, control programming, testing, creating interface templates, etc.I think that studying at the university is more interesting than in college. The teachers at the college were very young and did not know their subject, but we have good teachers at the university.
-      </p>
-   </div>
-   <div class="code-example">
-      <h2>Code examples</h2>
-      <div class="code">
-         <p>function multiply(a, b){</p>
-         <p>   return a * b;</p>
-         <p> }</p>
+      <div class="code-example">
+         <h2>Code examples</h2>
+         <div class="code">
+            <p>function multiply(a, b){</p>
+            <p>   return a * b;</p>
+            <p> }</p>
+         </div>
+         <br>
+         <div class="code">
+            <p>function disemvowel(str) {</p>
+            <p>return str.replace(/[AaEeIiOoUu]/g, '');</p>
+            <p>}</p>
+         </div>
       </div>
-      <br>
-      <div class="code">
-         <p>function disemvowel(str) {</p>
-         <p>return str.replace(/[AaEeIiOoUu]/g, '');</p>
-         <p>}</p>
+      <div class="work-experience">
+         <h2>Work experience</h2>
+         <p>
+            Now I’m working as a specialist in search engine optimization for an online store. I promote the website in the search engines Google and Yandex. This sphere is dying. Because buying ads in Google and Yandex search engines is much more profitable. I have tasks such as: taking photo of products, writing technical documentation for copywriter and programmer.
+         </p>
       </div>
-   </div>
-   <div class="work-experience">
-      <h2>Work experience</h2>
-      <p>
-         Now I’m working as a specialist in search engine optimization for an online store. I promote the website in the search engines Google and Yandex. This sphere is dying. Because buying ads in Google and Yandex search engines is much more profitable. I have tasks such as: taking photo of products, writing technical documentation for copywriter and programmer.
-      </p>
-   </div>
-   <div class="education">
-      <h2>Education</h2>
-      <p>
-         Secondary vocational 2013 - 2017. Minsk State Higher Radio Engineering College, Minsk.Speciality: Programming Technician.
-      </p>
-      <p>
-         Higher (Evening) 2017 - 2021 Institute of Information Technologies, Belarusian State University of Informatics and Radioelectronics, Minsk. Speciality: Systems engineer.
-      </p>
-      <p>
-         Language skills: Russian – native, English – Pre-intermediate.
-      </p>
-   </div>
+      <div class="education">
+         <h2>Education</h2>
+         <p>
+            Secondary vocational 2013 - 2017. Minsk State Higher Radio Engineering College, Minsk.Speciality: Programming Technician.
+         </p>
+         <p>
+            Higher (Evening) 2017 - 2021 Institute of Information Technologies, Belarusian State University of Informatics and Radioelectronics, Minsk. Speciality: Systems engineer.
+         </p>
+         <p>
+            Language skills: Russian – native, English – Pre-intermediate.
+         </p>
+      </div>
+   </main>
+   <footer>
+      <a href="https://github.com/skelegor8" target="_blank"><img src="/img/icon/icons8-github.svg" alt="" class="git-img"></a>
+   
+      <p class="year">Курс «JavaScript/Front-end» 2021 ©</p>
+   
+      <a href="https://rs.school/js/" target="_blank"><img src="/img/icon/rs_school_js.svg" alt="" class="rs-img"></a>
+   </footer>
 </body>
-<footer>
-   <a href="https://github.com/skelegor8"><img src="/img/icon/icons8-github.svg" alt="" class="git-img"></a>
-
-   <p class="year">Курс «JavaScript/Front-end» 2021 ©</p>
-
-   <a href="https://rs.school/js/"><img src="/img/icon/rs_school_js.svg" alt="" class="rs-img"></a>
-</footer>
 </html>
