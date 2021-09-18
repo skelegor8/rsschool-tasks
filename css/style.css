@@ -42,52 +42,140 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 body{
    font-family: Calibri;
+   background: rgb(58, 58, 58);
 
 }
 
 .wrapper {
+   min-height: 100%;
+}
+
+
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 10;
+   background: slategray;
+}
+
+.header__container {
+   max-width: 1200px;
+   margin: 0px auto;
+   display: flex;
+   padding: 0px 30px;
+   align-items: center;
+   justify-content: space-between;
+   min-height: 70px;
+}
+
+.header__logo {
+   border-radius: 50%;
+   background: white;
+   position: relative;
+   z-index: 5;
+   width: 40px;
+   height: 40px;
+}
+
+.header__menu {
 
 }
+
+.menu {
+
+}
+
+.menu__icon {
+
+}
+
+.menu__body {
+
+}
+
+.menu__list {
+
+}
+
+.menu__list > li {
+   position: relative;
+   margin: 0px 0px 0px 20px;
+}
+
+.menu__link {
+   color: white;
+   font-size: 18px;
+}
+
+.menu__link:hover{
+   text-decoration: underline;
+}
+
+@media (min-width: 767px) {
+   .menu__list{
+      display: flex;
+      align-items: center;
+   }
+   .menu__list > li {
+      padding: 10px 0;
+   }
+}
+
 
 .page {
-
+   padding: 90px 0 30px 0 ;
 }
+
+.page__section {
+   padding: 30px;
+   max-width: 1200px;
+   margin: 0px auto;
+}
+
 .page__section-contact-info {
-
-}
-
-.page__title {
-
-}
-
-.page__text {
-
+   background: white;
 }
 
 .page__section-about-me {
-
-}
-
-.page__sub-title {
-
+   background: white;
 }
 
 .page__section-code-example {
-
+   background: white;
 }
 
 .page__section-work-experience {
-
+   background: white;
 }
 
 .page__section-education {
-
+   background: white;
 }
 
 .page__section-language {
-
+   background: white;
 }
 
+.page__title {
+   font-size: 40px;
+   margin: 0px 0px 20px 0px;
+}
+
+.page__sub-title {
+   font-size: 30px;
+   margin: 0px 0px 20px 0px;
+}
+
+.page__text {
+   font-size: 16px;
+   line-height: 150%;
+}
+
+.page__text p {
+   margin: 0px 0px 20px 0px;
+}
 
 
 footer{
