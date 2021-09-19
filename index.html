@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <head>
    <title>
-      HTML, CSS & Git Basics
+      Shkel Egor - Junior Front-End Developer
    </title>
+   <link rel="icon" type="image/svg" sizes="32x32" href="/img/icon/cat.svg">
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <meta http-equiv="Cotent-type" content="text/html;charset=utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/default.min.css">
 </head>
 <body>
    <div class="wrapper">
       <header class="header">
          <div class="header__container">
-            <a href="" class="header__logo"></a>
+            <a href="#" class="header__text"><h1>Shkel Egor - Junior Front-End Developer Resume</h1></a>
             <div class="header__menu menu">
                <div class="menu__icon">
                   <span></span>
@@ -23,6 +25,7 @@
                      <li><a data-goto=".page__section-work-experience" href="#" class="menu__link">Work experience</a></li>
                      <li><a data-goto=".page__section-education" href="#" class="menu__link">Education</a></li>
                      <li><a data-goto=".page__section-language" href="#" class="menu__link">Language</a></li>
+                     <li><a data-goto=".page__section-contacts" href="#" class="menu__link">Contacts</a></li>
                   </ul>
                </nav>
             </div>
@@ -30,10 +33,12 @@
       </header>
       <main class="page">
          <section class="page__section page__section-contact-info">
-            <h1 class="page__title">Shkel Egor</h1>
+            <div class="page__my-photo">
+               <img src="/img/my_photo.jpg" alt="">
+            </div>
+            <h2 class="page__sub-title">Hi, I'm Shkel Egor</h2>
             <div class="page__text">
-               <p>Phone: +375 (25) 731-87-85</p>
-               <p>Email: skelegor8@gmail.com</p>
+               <h2>Junior Front-End Develope</h2>
             </div>
          </section>
          <section class="page__section page__section-about-me">
@@ -50,13 +55,17 @@
          <section class="page__section page__section-code-example">
             <h2 class="page__sub-title">Code examples</h2>
             <div class="page__text">
-               <p>function multiply(a, b){</p>
-                  <p>   return a * b;</p>
-                  <p> }</p>
-      
-                  <p>function disemvowel(str) {</p>
-                  <p>return str.replace(/[AaEeIiOoUu]/g, '');</p>
-                  <p>}</p>
+            <pre>
+            <code>
+            function multiply(a, b) {
+               return a * b;
+            }
+
+            function disemvowel(str) {
+               return str.replace(/[AaEeIiOoUu]/g, '');
+            }
+            </code>
+            </pre>
             </div>
          </section>
          <section class="page__section page__section-work-experience">
@@ -86,17 +95,29 @@
                </p>
             </div>
          </section>
+         <section class="page__section page__section-contacts">
+            <h2 class="page__sub-title">Contacts</h2>
+            <div class="page__text">
+               <p>
+                  Phone +375257318785
+               </p>
+            </div>
+         </section>
       </main>
       <footer class="footer">
          <div class="footer__container">
-            <a href="https://github.com/skelegor8" target="_blank"><img src="/img/icon/icons8-github.svg" alt="" class="git-img"></a>
-      
-            <p class="year">Курс «JavaScript/Front-end» 2021 ©</p>
-         
-            <a href="https://rs.school/js/" target="_blank"><img src="/img/icon/rs_school_js.svg" alt="" class="rs-img"></a>
+            <div class="footer__item footer__item-copyright">
+               <p>© 2021 by Shkel Egor</p>
+            </div>
+               <ul class="footer__contact-links">
+                  <li class="contact-links__item contact-links__item-git"><a href="https://github.com/skelegor8" target="_blank"><img src="/img/icon/icons8-github-black.svg" alt=""></a></li>
+                  <li class="contact-links__item contact-links__item-rsschool"><a href="https://rs.school/js/" target="_blank"><img src="/img/icon/rs_school_js.svg" alt=""></a></li>
+               </ul>
          </div>
       </footer>
    </div>
    <script src="/js/script.js"></script>
+   <script src="//unpkg.com/@highlightjs/cdn-assets@11.2.0/highlight.min.js"></script>
+   <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
