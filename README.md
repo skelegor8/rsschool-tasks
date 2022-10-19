@@ -1,6 +1,6 @@
 # portfolio
 
-Здесь часть задания которые я делал в школе The Rolling Scopes
+Здесь часть заданий которые я делал в школе The Rolling Scopes
 
 Деплои проектов
 - https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/
