@@ -12,14 +12,45 @@ My specialty in college was programming. When I graduated from college, I decide
 ### Code examples
 
 ```javascript
-function multiply(a, b){
-  return a * b;
+function nicknameGenerator(name) {
+  if (name.length < 4) {
+    name = "Error: Name too short";
+    return name;
+  } else {
+    if (
+      name[2] === "a" ||
+      name[2] === "e" ||
+      name[2] === "i" ||
+      name[2] === "o" ||
+      name[2] === "u"
+    ) {
+      return name.slice(0, 4);
+    } else {
+      return name.slice(0, 3);
+    }
+  }
 }
 ```
 
 ```javascript
-function disemvowel(str) {
-  return str.replace(/[AaEeIiOoUu]/g, '');
+function isIsogram(str) {
+  let strSlice = str.toLowerCase();
+  str = str.toLowerCase();
+  let isIsogramBool;
+  if (str === "") {
+    isIsogramBool = true;
+  }
+  for (let i = 0; i < str.length; i++) {
+    strSlice = str.slice(i + 1);
+    if (strSlice.indexOf(str[i]) === -1) {
+      isIsogramBool = true;
+    } else {
+      isIsogramBool = false;
+      break;
+    }
+  }
+  str = isIsogramBool;
+  return str;
 }
 ```
 

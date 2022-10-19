@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="icon" href="./assets/favicon.ico">
+
+  <title>Hero Portfolio</title>
+</head>
+<body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#"></a>
+        </div>
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="menu__item menu__item-skills"><a class="menu__link menu__link-skills" href="#skills" data-i18="skills">Skills</a></li>
+              <li class="menu__item menu__item-portfolio"><a class="menu__link menu__link-portfolio" href="#portfolio" data-i18="portfolio">Portfolio</a></li>
+              <li class="menu__item menu__item-video"><a class="menu__link menu__link-video" href="#video" data-i18="video">Video</a></li>
+              <li class="menu__item menu__item-price"><a class="menu__link menu__link-price" href="#price" data-i18="price">Price</a></li>
+              <li class="menu__item menu__item-contacts"><a class="menu__link menu__link-contacts" href="#contact" data-i18="contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        <div class="menu__language">
+          <button class="menu__language-btn active" data-language="en">en</button>
+          <span class="menu__language-item">/</span>
+          <button class="menu__language-btn" data-language="ru">ru</button>
+        </div>
+        <div class="header__theme">
+          <button class="header__theme-button"></button>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="section section__hero">
+        <div class="section__size section__size-hero">
+        <div class="section__hero-container">
+          <div class="section__hero-content">
+            <h1 class="section__hero-h1" data-i18="hero-title">
+              Alexa Rise
+            </h1>
+            <p class="section__hero-text" data-i18="hero-text">
+              Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
+            </p>
+              <button class="section__hero-button" data-i18="hire">
+                Hire me
+              </button>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="skills" class="section section__skills">
+        <div class="section__skills-conteiner">
+          <div class="section__wrapper-title">
+            <h2 class="section-h2 section__skills-h2" data-i18="skills">Skills</h2>
+          </div>
+          <div class="section__skills-content">
+            <div class="section__skills-element section__skills-element-photo">
+              <img class="section__skills-img section__skills-img-photo" src="./assets/img/photo-skills.png" alt="">
+              <h3 class="section__skills-h3" data-i18="skill-title-1">Digital photography</h3>
+              <p class="section__skills-text" data-i18="skill-text-1">
+                High-quality photos in the studio and on the nature
+              </p>
+            </div>
+            <div class="section__skills-element section__skills-element-video">
+              <img class="section__skills-img section__skills-img-video" src="./assets/img/video-skills.png" alt="">
+              <h3 class="section__skills-h3" data-i18="skill-title-2">Video shooting</h3>
+              <p class="section__skills-text" data-i18="skill-text-2">
+                Capture your moments so that they always stay with you
+              </p>
+            </div>
+            <div class="section__skills-element section__skills-element-retouch">
+              <img class="section__skills-img section__skills-img-retouch" src="./assets/img/retouch-skills.png" alt="">
+              <h3 class="section__skills-h3" data-i18="skill-title-3">Rotouch</h3>
+              <p class="section__skills-text" data-i18="skill-text-3">
+                I strive to make photography surpass reality
+              </p>
+            </div>
+            <div class="section__skills-element section__skills-element-audio">
+              <img class="section__skills-img section__skills-img-audio" src="./assets/img/audio-skills.png" alt="">
+              <h3 class="section__skills-h3" data-i18="skill-title-4">Audio</h3>
+              <p class="section__skills-text" data-i18="skill-text-4">
+                Professional sounds recording for video, advertising, portfolio
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="section section__portfolio">
+        <div class="section__size">
+        <div class="section__wrapper-title">
+          <h2 class="section-h2 section__portfolio-h2" data-i18="portfolio">Portfolio</h2>
+        </div>
+        <div class="section__portfolio-conteiner">
+            <button class="section__portfolio-button" data-season="winter" data-i18="winter">Winter</button>
+            <button class="section__portfolio-button" data-season="spring" data-i18="spring">Spring</button>
+            <button class="section__portfolio-button" data-season="summer" data-i18="summer">Summer</button>
+            <button class="section__portfolio-button active" data-season="autumn" data-i18="autumn">Autumn</button>
+        </div>
+        <div class="section__portfolio-gallery">
+          <img class="section__portfolio-img" src="./assets/img/autumn/1.jpg" alt="">
+          <img class="section__portfolio-img" src="./assets/img/autumn/2.jpg" alt="">
+          <img class="section__portfolio-img" src="./assets/img/autumn/3.jpg" alt="">
+          <img class="section__portfolio-img" src="./assets/img/autumn/4.jpg" alt="">
+          <img class="section__portfolio-img" src="./assets/img/autumn/5.jpg" alt="">
+          <img class="section__portfolio-img" src="./assets/img/autumn/6.jpg" alt="">
+        </div>
+      </div>
+      </section>
+      <section id="video" class="section section__video">
+        <div class="section__wrapper-title">
+          <h2 class="section-h2 section__video-h2" data-i18="video">Video</h2>
+        </div>
+        <div class="section__video-container">
+          <video class="section__video-video" poster="./assets/img/video-player.jpg" preload="auto" src="./assets/video/video.mp4"></video>
+            <button class="section__video-play-button"><img class="section__video-play-button-img" src="./assets/img/Play_Unvisited.png" alt=""></button>
+            <div class="section__video-controls">
+              <button class="section__video-play-mini-btn"></button>
+              <input class="section__video-timeline slider-progress" type="range"min="0" max="100" step="1" value="0">
+              <button class="section__video-mute"></button>
+              <input class="section__video-volume" type="range" min="0" max="100" step="1" value="40">
+            </div>
+        </div>
+      </section>
+      <section id="price" class="section section__price">
+        <div class="section__size">
+        <div class="section__wrapper-title">
+          <h2 class="section-h2 section__price-h2" data-i18="price">Price</h2>
+        </div>
+        <div class="section__price-conteiner">
+          <div class="section__price-card">
+            <h3 class="section__price-title-content" data-i18="">Standard</h3>
+            <p class="section__price-price">500 $</p>
+            <span class="section__price-content" data-i18="price-description-1-span-1">One location</span>
+            <span class="section__price-content" data-i18="price-description-1-span-2">120 photos in color</span>
+            <span class="section__price-content" data-i18="price-description-1-span-3">12 photos in retouch</span>
+            <span class="section__price-content" data-i18="price-description-1-span-4">Readiness 2-3 weeks</span>
+            <span class="section__price-content" data-i18="price-description-1-span-5">Make up, visage</span>
+
+              <button class="section__price-button" data-i18="order">Order shooting</button>
+
+          </div>
+          <div class="section__price-card">
+            <h3 class="section__price-title-content" data-i18="">Premium</h3>
+            <p class="section__price-price">700 $</p>
+            <span class="section__price-content" data-i18="price-description-2-span-1">One or two locations</span>
+            <span class="section__price-content" data-i18="price-description-2-span-2">200 photos in color</span>
+            <span class="section__price-content" data-i18="price-description-2-span-3">20 photos in retouch</span>
+            <span class="section__price-content" data-i18="price-description-2-span-4">Readiness 1-2 weeks</span>
+            <span class="section__price-content" data-i18="price-description-2-span-5">Make up, visage</span>
+
+            <button class="section__price-button" data-i18="order">Order shooting</button>
+
+          </div>
+          <div class="section__price-card">
+            <h3 class="section__price-title-content" data-i18="">Gold</h3>
+            <p class="section__price-price">1000 $</p>
+            <span class="section__price-content" data-i18="price-description-3-span-1">Three locations or more</span>
+            <span class="section__price-content" data-i18="price-description-3-span-2">300 photos in color</span>
+            <span class="section__price-content" data-i18="price-description-3-span-3">50 photos in retouch</span>
+            <span class="section__price-content" data-i18="price-description-3-span-4">Readiness 1 week</span>
+            <span class="section__price-content" data-i18="price-description-3-span-5">Make up, visage, hairstyle</span>
+            <button class="section__price-button" data-i18="order">Order shooting</button>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="contact" class="section section__contact">
+        <div class="section__size-contact">
+        <div class="section__contact-conteiner">
+          <h2 class="section__contact-title"data-i18="contact-me">Contact me</h2>
+            <input class="section__contact-email" type="email" name="email" placeholder="E-mail" data-i18="mail">
+            <input class="section__contact-phone" type="tel" name="phone" placeholder="Phone" data-i18="phone">
+            <textarea class="section__contact-message" name="message" cols="30" rows="10" placeholder="Message" data-i18="message"></textarea>
+            <button class="section__contact-button" data-i18="send-message">Send message</button>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__conteiner">
+        <div class="footer__elemet">
+          <ul class="footer__list">
+            <li class="footer__list-copy">©</li>
+            <li class="footer__list-yaer">2022</li>
+            <li class="footer__list-git"><a class="footer__git-link" href="https://github.com/skelegor8" target="_blank">github</a></li>
+          </ul>
+        </div>
+        <div class="footer__elemet">
+          <a class="footer__link-rs" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+        </div>
+        <div class="footer__elemet">
+          <ul class="footer__list-social">
+            <li class="footer__social footer__social-instagram"><a class="footer__link" href="#"></a></li>
+            <li class="footer__social footer__social-fasebook"><a class="footer__link" href="#"></a></li>
+            <li class="footer__social footer__social-twitter"><a class="footer__link" href="#"></a></li>
+            <li class="footer__social footer__social-pinterest"><a class="footer__link" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
