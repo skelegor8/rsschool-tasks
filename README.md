@@ -38,8 +38,6 @@ Portfolio – задание stage#0 в ходе выполнения котор
 Продолжительность выполнения второй и третьей части - 1 неделя  
 Форма проверки каждой части задания - кросс-чек  
 
-<kbd>![screenshot](images/demo-desktop.jpg)</kbd>
-
 [Макет в figma](https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio)  
 
 ## Создание собственной копии макета
